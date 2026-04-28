@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, ArrowRight, BrainCircuit, Zap, User, Briefcase, GraduationCap } from 'lucide-react';
+import "../src/style.css";
 
 type UserPersona = 'student' | 'freelancer' | 'general';
 
