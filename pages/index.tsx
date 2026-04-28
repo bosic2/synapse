@@ -7,6 +7,7 @@ import AISuggestionPanel from '../components/AISuggestionPanel';
 import BurnoutAlert from '../components/BurnoutAlert';
 import Settings from '../components/Settings';
 import { calculateBurnoutRisk, BurnoutStatus } from '../lib/engine';
+import "../src/style.css";
 
 declare global {
   interface Window {
