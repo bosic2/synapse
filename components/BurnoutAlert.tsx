@@ -1,6 +1,7 @@
 import React from 'react';
 import { AlertTriangle, X, Coffee, Brain } from 'lucide-react';
 import { BurnoutStatus } from '../lib/engine';
+import "../src/style.css";
 
 interface BurnoutAlertProps {
   status: BurnoutStatus;
