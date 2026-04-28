@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Plus, Type, CheckSquare, List } from 'lucide-react';
-import "../src/style.css";
 
 interface Block {
   id: string;
