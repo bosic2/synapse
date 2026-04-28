@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import { Plus, ArrowUpRight, ArrowDownLeft, Wallet, TrendingUp } from 'lucide-react';
-import "../src/style.css";
-
-
 interface Transaction {
   id: string;
   type: 'income' | 'expense';
