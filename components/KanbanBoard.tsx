@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, MoreHorizontal } from 'lucide-react';
+import "../src/style.css";
 
 interface Task {
   id: string;
