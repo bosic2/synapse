@@ -1,6 +1,5 @@
 import React from 'react';
 import { LayoutDashboard, KanbanSquare, Wallet, Sparkles, Settings, Zap } from 'lucide-react';
-import "../src/style.css";
 
 type View = string;
 
