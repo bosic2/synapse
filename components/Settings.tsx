@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Bell, Shield, Cpu, Key, User, Moon, Sun, Volume2 } from 'lucide-react';
+import "../src/style.css";
 
 const Settings = () => {
   const [automationEnabled, setAutomationEnabled] = useState(true);
